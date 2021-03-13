@@ -1,0 +1,41 @@
+﻿<h2 class="mat-dialog-title"><mat-icon>ballot</mat-icon>{{computerName}}</h2>
+<mat-dialog-content class="mat-typography">
+
+    <div fxLayoutAlign="center center">
+        <mat-form-field fxFlex="40%">
+            <input matInput type="text" (keyup)="doFilter($event.target.value)" placeholder="Поиск">
+        </mat-form-field>
+    </div>
+    <mat-table [dataSource]="dataSource" matSort>
+        <ng-container matColumnDef="caption">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>
+                Описание
+            </mat-header-cell>
+            <mat-cell *matCellDef="let column">{{column.caption}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="version">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>
+                Версия
+            </mat-header-cell>
+            <mat-cell *matCellDef="let column">{{column.version}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="installDate">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>
+                Дата инсталляции
+            </mat-header-cell>
+            <mat-cell *matCellDef="let column">{{column.installDate | date: 'dd.MM.yyyy'}}</mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="['caption','version','installDate']; sticky:true"></mat-header-row>
+        <mat-row *matRowDef="let row; columns:['caption','version','installDate'];"></mat-row>
+
+    </mat-table>
+
+</mat-dialog-content>
+
+<div mat-dialog-actions>
+    <button mat-raised-button (click)="close()">Закрыть</button>
+</div>
+

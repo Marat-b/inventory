@@ -1,0 +1,2 @@
+C:\Softz\inventory\src\inventory\obj\Release\net461\inventory.csprojResolveAssemblyReference.cache
+C:\Softz\inventory\src\inventory\obj\Release\net461\inventory.exe.config

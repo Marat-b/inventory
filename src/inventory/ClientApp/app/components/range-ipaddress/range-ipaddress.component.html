@@ -1,0 +1,42 @@
+<app-page-header title="Список IP-адресов" icon="settings_ethernet"></app-page-header>
+<div class="page-content">
+  <div class="mat-elevation-z8">
+    <div fxLayoutAlign="center center">
+      <mat-form-field fxFlex="40%">
+        <input matInput type="text" (keyup)="doFilter($event.target.value)" placeholder="Поиск">
+      </mat-form-field>
+    </div>
+
+    <mat-table [dataSource]="dataSource" matSort>
+      <ng-container matColumnDef="startIpaddress">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          Начальный IP-адрес
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.startAddress}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="endIpaddress">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          Конечный IP-адрес
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.endAddress}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="action">
+        <mat-header-cell *matHeaderCellDef >
+          <button mat-button (click)="editIpaddress()"><mat-icon>add</mat-icon>Добавить IP-адрес</button>
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">
+          <button mat-button (click)="editIpaddress(column.rangeId)"><mat-icon>edit</mat-icon></button>
+          <button mat-button (click)="deleteIpaddress(column)"><mat-icon>delete</mat-icon></button>
+          </mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="['startIpaddress','endIpaddress','action']"></mat-header-row>
+      <mat-row *matRowDef="let row; columns:['startIpaddress','endIpaddress','action'];"></mat-row>
+
+    </mat-table>
+    <mat-paginator  [pageSize]="10" [pageSizeOptions]="[5, 10 , 20]">
+    </mat-paginator>
+  </div>
+</div>

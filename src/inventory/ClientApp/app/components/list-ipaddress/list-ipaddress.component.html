@@ -1,0 +1,57 @@
+<app-page-header title="Список IP-адресов" icon="settings_ethernet"></app-page-header>
+<div class="page-content">
+  <div class="mat-elevation-z8">
+
+    <div fxLayout="row" fxLayoutGap="10px">
+      <div fxFlex="48%" fxLayoutAlign="left center" fxLayoutGap="10px" fxFlexOffset="20px">
+      <mat-form-field  fxFlex="78%">
+        <input matInput type="text" (keyup)="doFilter($event.target.value)" placeholder="Поиск">
+      </mat-form-field>
+      </div>
+        <div fxFlex="48%" fxLayoutAlign="end center">
+          <button fxLayoutAlign="center center"  mat-mini-fab matTooltip="Обновить данные" (click)="refresh()"><mat-icon>cached</mat-icon></button>
+        </div>
+    </div>
+
+    <mat-table [dataSource]="dataSource" matSort>
+
+      <ng-container matColumnDef="ipAddress">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          IP-адрес
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.ipAddress}}</mat-cell>
+      </ng-container>
+
+
+      <ng-container matColumnDef="deviceName">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          Устройство
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.deviceName}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="macAddress">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          MAC-адрес
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.macAddress}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="lastUpdate">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+          Последнее обновление
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.lastUpdate | date: 'dd.MM.yyyy'}} {{column.lastUpdate | date: 'mediumTime'}}</mat-cell>
+      </ng-container>
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns:displayedColumns;"></mat-row>
+
+    </mat-table>
+    <mat-paginator  [pageSize]="10" [pageSizeOptions]="[5, 10 , 20 , 30 , 40 , 50]">
+    </mat-paginator>
+  </div>
+</div>
+
+
+

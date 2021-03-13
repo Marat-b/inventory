@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>Редактирование области IP адресов</h1>
+<form [formGroup]="rangeForm"  >
+<div mat-dialog-content fxLayout="column" fxLayoutGap="1em">
+
+    <mat-form-field fxFlex>
+        <mat-label>Начальный IP-адрес</mat-label>
+        <input matInput formControlName="startAddress"  />
+    </mat-form-field>
+    <mat-form-field fxFlex>
+        <mat-label>Конечный IP-адрес</mat-label>
+        <input matInput formControlName="endAddress"  />
+    </mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+    <button  type="submit" mat-raised-button  color="primary" [mat-dialog-close]="rangeForm"  >Сохранить</button>
+
+    <button  mat-raised-button (click)="cancel()">Закрыть</button>
+</div>
+</form>
+

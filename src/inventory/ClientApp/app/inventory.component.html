@@ -1,0 +1,45 @@
+<div class="nav-container">
+    <mat-toolbar ngPreserveWhitespaces color="primary" class="app-toolbar">
+        <button mat-icon-button (click)="mainNav.toggle()"><mat-icon>menu</mat-icon></button>
+        <h1 class="app-name"><a routerLink="/" class="appTitle">Inventory</a></h1>
+        <span class="app-toolbar-spacer"></span>
+        <button  class="side-button" mat-button [matMenuTriggerFor]="accountMenu" matTooltip="Настройки">
+            <mat-icon class="menu-button">build</mat-icon>
+            <span fxHide.lt-sm>Настройки</span>
+        </button>
+<mat-menu #accountMenu="matMenu">
+    <button mat-menu-item (click)="router.navigateByUrl('/range-ipaddress')"><mat-icon>settings_ethernet</mat-icon><span>Настройка IP-адресов</span></button>
+</mat-menu>
+    </mat-toolbar>
+
+    <mat-sidenav-container class="app-sidenav-container">
+        <mat-sidenav  #mainNav class="app-sidenav-nav mat-elevation-z6"  opened mode="side" >
+            <mat-nav-list>
+                <a mat-list-item routerLinkActive="active" routerLink="/"><mat-icon>home</mat-icon>Главная</a>
+                <a mat-list-item routerLinkActive="active" routerLink="/computer"><mat-icon>computer</mat-icon>Компьютеры</a>
+                <a mat-list-item routerLinkActive="active" routerLink="/monitor"><mat-icon>desktop_windows</mat-icon>Мониторы</a>
+            </mat-nav-list>
+            <mat-nav-list>
+                <mat-expansion-panel class="mat-elevation-z0" [class.mat-elevation-z0]="true">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title><mat-icon>settings_ethernet</mat-icon>
+                            IP адреса
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <a mat-list-item  *ngFor="let ria of rangeIpaddress" [routerLink]="['/list-ipaddress',ria.rangeId]"  >{{ria.startAddress}} - {{ria.endAddress}}</a>
+                </mat-expansion-panel>
+            </mat-nav-list>
+        </mat-sidenav>
+        <mat-sidenav-content>
+            <div  fxLayout="column" fxFill>
+                <div id="mainContent"  fxFlex>
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </mat-sidenav-content>
+
+    </mat-sidenav-container>
+
+
+</div>
+

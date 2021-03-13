@@ -1,0 +1,61 @@
+<app-page-header title="Мониторы" icon="desktop_windows"></app-page-header>
+
+<div class="page-content">
+<div class="mat-elevation-z8">
+
+    <div fxLayout="row" fxLayoutGap="10px">
+        <div fxFlex="48%" fxLayoutAlign="left center" fxLayoutGap="10px" fxFlexOffset="20px">
+            <mat-form-field  fxFlex="78%">
+                <input matInput type="text" (keyup)="doFilter($event.target.value)" placeholder="Поиск">
+            </mat-form-field>
+        </div>
+        <div fxFlex="48%" fxLayoutAlign="end center">
+            <button fxLayoutAlign="center center"  mat-mini-fab matTooltip="Обновить данные" (click)="refresh()"><mat-icon>cached</mat-icon></button>
+        </div>
+    </div>
+
+    <mat-table [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="monitorId">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+            ИД
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.monitorId}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="model">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+            Модель
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.model}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="serialNumber">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+            Серийный номер
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.serialNumber}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="computerName">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+            Имя компьютера
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.computerName}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="lastUpdate">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>
+            Дата обновления
+        </mat-header-cell>
+        <mat-cell *matCellDef="let column">{{column.lastUpdate | date: 'dd.MM.yyyy'}} {{column.lastUpdate | date: 'mediumTime'}}}}</mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns:displayedColumns;"></mat-row>
+
+
+</mat-table>
+                <mat-paginator  [pageSize]="10" [pageSizeOptions]="[5, 10 , 20 ,50]">
+                </mat-paginator>
+</div>
+</div>

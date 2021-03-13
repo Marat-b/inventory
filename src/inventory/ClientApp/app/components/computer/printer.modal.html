@@ -1,0 +1,47 @@
+﻿<h2 class="mat-dialog-title"><mat-icon>print</mat-icon>{{computerName}}</h2>
+<mat-dialog-content class="mat-typography">
+
+        <div fxLayoutAlign="center center">
+            <mat-form-field fxFlex="40%">
+                <input matInput type="text" (keyup)="doFilter($event.target.value)" placeholder="Поиск">
+            </mat-form-field>
+        </div>
+        <mat-table [dataSource]="dataSource" matSort>
+            <ng-container matColumnDef="caption">
+                <mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Описание
+                </mat-header-cell>
+                <mat-cell *matCellDef="let column">{{column.caption}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="driverName">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>
+                Драйвер
+            </mat-header-cell>
+            <mat-cell *matCellDef="let column">{{column.driverName}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="portName">
+                <mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Порт
+                </mat-header-cell>
+                <mat-cell *matCellDef="let column">{{column.portName}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="local">
+                <mat-header-cell *matHeaderCellDef mat-sort-header>
+                    Локальный
+                </mat-header-cell>
+                <mat-cell *matCellDef="let column">{{column.local}}</mat-cell>
+            </ng-container>
+
+            <mat-header-row *matHeaderRowDef="['caption','driverName','portName','local']; sticky:true"></mat-header-row>
+            <mat-row *matRowDef="let row; columns:['caption','driverName','portName','local'];"></mat-row>
+
+        </mat-table>
+
+    </mat-dialog-content>
+
+<div mat-dialog-actions>
+    <button mat-raised-button (click)="close()">Закрыть</button>
+</div>

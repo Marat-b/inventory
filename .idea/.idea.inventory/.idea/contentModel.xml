@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Softz\inventory" t="IncludeFlat">
+      <e p="inventory.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Solution Items" t="Include" />
+      <e p="src" t="Include">
+        <e p="inventory" t="IncludeRecursive">
+          <e p="app.config" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="appsettings.production.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Classes" t="Include">
+            <e p="CComputer.cs" t="Include" />
+            <e p="CMonitor.cs" t="Include" />
+            <e p="IPHelper.cs" t="Include" />
+            <e p="ListAddressRepository.cs" t="Include" />
+            <e p="RangeAddressRepository.cs" t="Include" />
+            <e p="Repository.cs" t="Include" />
+            <e p="UnitOfWork.cs" t="Include" />
+          </e>
+          <e p="ClientApp" t="Include">
+            <e p="angular.json" t="Include" />
+            <e p="app" t="Include">
+              <e p="app.component.scss" t="Include" />
+              <e p="app.component.ts" t="Include" />
+              <e p="app.module.ts" t="Include" />
+              <e p="components" t="Include">
+                <e p="computer" t="Include">
+                  <e p="computer.html" t="Include" />
+                  <e p="computer.js" t="Include" />
+                  <e p="computer.modal.html" t="Include" />
+                  <e p="computer.ts" t="Include" />
+                  <e p="printer.modal.html" t="Include" />
+                  <e p="product.modal.html" t="Include" />
+                  <e p="service.modal.html" t="Include" />
+                </e>
+                <e p="home" t="Include">
+                  <e p="home.component.html" t="Include" />
+                  <e p="home.component.ts" t="Include" />
+                </e>
+                <e p="list-ipaddress" t="Include">
+                  <e p="list-ipaddress.component.html" t="Include" />
+                  <e p="list-ipaddress.component.scss" t="Include" />
+                  <e p="list-ipaddress.component.spec.ts" t="Include" />
+                  <e p="list-ipaddress.component.ts" t="Include" />
+                </e>
+                <e p="monitor" t="Include">
+                  <e p="monitor.html" t="Include" />
+                  <e p="monitor.js" t="Include" />
+                  <e p="monitor.ts" t="Include" />
+                </e>
+                <e p="range-ipaddress" t="Include">
+                  <e p="range-ipaddress-dialog.component.html" t="Include" />
+                  <e p="range-ipaddress.component.html" t="Include" />
+                  <e p="range-ipaddress.component.scss" t="Include" />
+                  <e p="range-ipaddress.component.spec.ts" t="Include" />
+                  <e p="range-ipaddress.component.ts" t="Include" />
+                </e>
+              </e>
+              <e p="environment.prod.ts" t="Include" />
+              <e p="inventory.component.html" t="Include" />
+              <e p="main.ts" t="Include" />
+              <e p="shared" t="Include">
+                <e p="footer.component.html" t="Include" />
+                <e p="footer.component.scss" t="Include" />
+                <e p="footer.component.ts" t="Include" />
+                <e p="model" t="Include">
+                  <e p="computer" t="Include">
+                    <e p="computer.model.js" t="Include" />
+                    <e p="computer.model.ts" t="Include" />
+                  </e>
+                  <e p="ipaddress" t="Include">
+                    <e p="list-ipaddress.model.ts" t="Include" />
+                    <e p="range-ipaddress.model.ts" t="Include" />
+                  </e>
+                  <e p="monitor" t="Include">
+                    <e p="monitor.model.js" t="Include" />
+                    <e p="monitor.model.ts" t="Include" />
+                  </e>
+                  <e p="printer" t="Include">
+                    <e p="printer.model.js" t="Include" />
+                    <e p="printer.model.ts" t="Include" />
+                  </e>
+                  <e p="product" t="Include">
+                    <e p="product.model.js" t="Include" />
+                    <e p="product.model.ts" t="Include" />
+                  </e>
+                  <e p="service" t="Include">
+                    <e p="service.model.js" t="Include" />
+                    <e p="service.model.ts" t="Include" />
+                  </e>
+                </e>
+                <e p="Module" t="Include">
+                  <e p="material.module.ts" t="Include" />
+                </e>
+                <e p="page-header.component.html" t="Include" />
+                <e p="page-header.component.scss" t="Include" />
+                <e p="page-header.component.ts" t="Include" />
+                <e p="service" t="Include">
+                  <e p="computer" t="Include">
+                    <e p="computer.getter" t="Include">
+                      <e p="computer.getter.service.js" t="Include" />
+                      <e p="computer.getter.service.ts" t="Include" />
+                    </e>
+                    <e p="computer.service.js" t="Include" />
+                    <e p="computer.service.ts" t="Include" />
+                  </e>
+                  <e p="endpoint-factory.service.ts" t="Include" />
+                  <e p="ipaddress" t="Include">
+                    <e p="endpoint-list-ipaddress.service.spec.ts" t="Include" />
+                    <e p="endpoint-list-ipaddress.service.ts" t="Include" />
+                    <e p="endpoint-range-ip-address-service.service.spec.ts" t="Include" />
+                    <e p="endpoint-range-ip-address-service.service.ts" t="Include" />
+                    <e p="get-range-ipaddress.service.ts" t="Include" />
+                    <e p="list-ip-address-service.service.spec.ts" t="Include" />
+                    <e p="list-ip-address-service.service.ts" t="Include" />
+                    <e p="range-ip-address-service.service.spec.ts" t="Include" />
+                    <e p="range-ip-address-service.service.ts" t="Include" />
+                  </e>
+                  <e p="monitor" t="Include">
+                    <e p="monitor.service.js" t="Include" />
+                    <e p="monitor.service.ts" t="Include" />
+                  </e>
+                  <e p="printer" t="Include">
+                    <e p="printer.service.js" t="Include" />
+                    <e p="printer.service.ts" t="Include" />
+                  </e>
+                  <e p="product" t="Include">
+                    <e p="product.service.js" t="Include" />
+                    <e p="product.service.ts" t="Include" />
+                  </e>
+                  <e p="range-ipaddress.service.spec.ts" t="Include" />
+                  <e p="service" t="Include">
+                    <e p="service.service.js" t="Include" />
+                    <e p="service.service.ts" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="tslint.json" t="Include" />
+            </e>
+            <e p="assets" t="Include">
+              <e p="iconfont" t="Include">
+                <e p="codepoints" t="Include" />
+                <e p="material-icons.css" t="Include" />
+                <e p="MaterialIcons-Regular.eot" t="Include" />
+                <e p="MaterialIcons-Regular.ijmap" t="Include" />
+                <e p="MaterialIcons-Regular.svg" t="Include" />
+                <e p="MaterialIcons-Regular.ttf" t="Include" />
+                <e p="MaterialIcons-Regular.woff" t="Include" />
+                <e p="MaterialIcons-Regular.woff2" t="Include" />
+                <e p="README.md" t="Include" />
+              </e>
+            </e>
+            <e p="dist" t="Include">
+              <e p="3rdpartylicenses.txt" t="Include" />
+              <e p="assets" t="Include">
+                <e p="iconfont" t="Include">
+                  <e p="codepoints" t="Include" />
+                  <e p="material-icons.css" t="Include" />
+                  <e p="MaterialIcons-Regular.eot" t="Include" />
+                  <e p="MaterialIcons-Regular.ijmap" t="Include" />
+                  <e p="MaterialIcons-Regular.svg" t="Include" />
+                  <e p="MaterialIcons-Regular.ttf" t="Include" />
+                  <e p="MaterialIcons-Regular.woff" t="Include" />
+                  <e p="MaterialIcons-Regular.woff2" t="Include" />
+                  <e p="README.md" t="Include" />
+                </e>
+              </e>
+              <e p="index.html" t="Include" />
+              <e p="main.7a15c8032b40705d9db2.js" t="Include" />
+              <e p="MaterialIcons-Regular.012cf6a10129e2275d79.woff" t="Include" />
+              <e p="MaterialIcons-Regular.570eb83859dc23dd0eec.woff2" t="Include" />
+              <e p="MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf" t="Include" />
+              <e p="MaterialIcons-Regular.e79bfd88537def476913.eot" t="Include" />
+              <e p="polyfills.17a30947184fdd614c47.js" t="Include" />
+              <e p="runtime.26209474bfa8dc87a77c.js" t="Include" />
+              <e p="styles.04a69bcc09946d5cf9fc.css" t="Include" />
+            </e>
+            <e p="environments" t="Include">
+              <e p="environment.prod.ts" t="Include" />
+              <e p="environment.ts" t="Include" />
+            </e>
+            <e p="index.html" t="Include" />
+            <e p="node_modules" t="ExcludeRecursive">
+              <e p="@angular\animations" t="IncludeRecursive" />
+              <e p="@angular\cdk" t="IncludeRecursive" />
+              <e p="@angular\cli" t="IncludeRecursive" />
+              <e p="@angular\common" t="IncludeRecursive" />
+              <e p="@angular\compiler" t="IncludeRecursive" />
+              <e p="@angular\compiler-cli" t="IncludeRecursive" />
+              <e p="@angular\core" t="IncludeRecursive" />
+              <e p="@angular\flex-layout" t="IncludeRecursive" />
+              <e p="@angular\forms" t="IncludeRecursive" />
+              <e p="@angular\http" t="IncludeRecursive" />
+              <e p="@angular\material" t="IncludeRecursive" />
+              <e p="@angular\platform-browser" t="IncludeRecursive" />
+              <e p="@angular\platform-browser-dynamic" t="IncludeRecursive" />
+              <e p="@angular\router" t="IncludeRecursive" />
+              <e p="@angular-devkit\build-angular" t="IncludeRecursive" />
+              <e p="@angular-devkit\build-optimizer" t="IncludeRecursive" />
+              <e p="@angular-devkit\schematics" t="IncludeRecursive" />
+              <e p="@types" t="IncludeRecursive">
+                <e p="events" t="IncludeRecursive" />
+                <e p="jasmine" t="IncludeRecursive" />
+                <e p="jasminewd2" t="IncludeRecursive" />
+                <e p="minimatch" t="IncludeRecursive" />
+                <e p="node" t="IncludeRecursive" />
+                <e p="source-list-map" t="IncludeRecursive" />
+              </e>
+              <e p="codelyzer" t="IncludeRecursive" />
+              <e p="core-js" t="IncludeRecursive" />
+              <e p="jasmine-core" t="IncludeRecursive" />
+              <e p="jasmine-spec-reporter" t="IncludeRecursive" />
+              <e p="karma" t="IncludeRecursive" />
+              <e p="karma-chrome-launcher" t="IncludeRecursive" />
+              <e p="karma-cli" t="IncludeRecursive" />
+              <e p="karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+              <e p="karma-jasmine" t="IncludeRecursive" />
+              <e p="karma-jasmine-html-reporter" t="IncludeRecursive" />
+              <e p="material-design-icons" t="IncludeRecursive" />
+              <e p="npm-run-all" t="IncludeRecursive" />
+              <e p="protractor" t="IncludeRecursive" />
+              <e p="reflect-metadata" t="IncludeRecursive" />
+              <e p="rxjs" t="IncludeRecursive" />
+              <e p="rxjs-tslint" t="IncludeRecursive" />
+              <e p="source-map" t="IncludeRecursive" />
+              <e p="ts-node" t="IncludeRecursive" />
+              <e p="tslint" t="IncludeRecursive" />
+              <e p="typings" t="IncludeRecursive" />
+              <e p="webpack" t="IncludeRecursive" />
+              <e p="webpack-dev-server" t="IncludeRecursive" />
+              <e p="webpack-hot-middleware" t="IncludeRecursive" />
+              <e p="webpack-merge" t="IncludeRecursive" />
+              <e p="zone.js" t="IncludeRecursive" />
+            </e>
+            <e p="package-lock.json" t="Include" />
+            <e p="package.json" t="Include" />
+            <e p="polyfills.ts" t="Include" />
+            <e p="styles.scss" t="Include" />
+            <e p="tsconfig.app.json" t="Include" />
+            <e p="tsconfig.json" t="Include" />
+            <e p="webpack.config.js" t="Include" />
+            <e p="webpack.config.vendor.js" t="Include" />
+          </e>
+          <e p="Controllers" t="Include">
+            <e p="ComputerController.cs" t="Include" />
+            <e p="ListAddressController.cs" t="Include" />
+            <e p="MonitorController.cs" t="Include" />
+            <e p="PrinterController.cs" t="Include" />
+            <e p="ProductController.cs" t="Include" />
+            <e p="RangeAddressController.cs" t="Include" />
+            <e p="ServiceController.cs" t="Include" />
+          </e>
+          <e p="Db" t="Include">
+            <e p="inventoryContext.cs" t="Include" />
+            <e p="TComputer.cs" t="Include" />
+            <e p="TListIpAddress.cs" t="Include" />
+            <e p="TMonitor.cs" t="Include" />
+            <e p="TRangeIpAddress.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IComputer.cs" t="Include" />
+            <e p="IIpAddress.cs" t="Include" />
+            <e p="IMonitor.cs" t="Include" />
+            <e p="IRepository.cs" t="Include" />
+            <e p="IUnitOfWork.cs" t="Include" />
+          </e>
+          <e p="inventory.csproj" t="IncludeRecursive" />
+          <e p="libman.json" t="Include" />
+          <e p="model" t="Include" />
+          <e p="Models" t="Include">
+            <e p="AutoMapperProfile.cs" t="Include" />
+            <e p="ComputerModel.cs" t="Include" />
+            <e p="IpAddressModel.cs" t="Include" />
+            <e p="MonitorModel.cs" t="Include" />
+            <e p="PrinterModel.cs" t="Include" />
+            <e p="ProductModel.cs" t="Include" />
+            <e p="ServiceModel.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Release" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="inventory.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="project.old" t="Include" />
+          <e p="Project_Readme.html" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+            <e p="launchSettings.json.old" t="Include" />
+            <e p="PublishProfiles" t="Include">
+              <e p="inventory-publish.ps1" t="Include" />
+              <e p="inventory.pubxml" t="Include" />
+              <e p="publish-module.psm1" t="Include" />
+            </e>
+          </e>
+          <e p="Startup.cs" t="Include" />
+          <e p="typings" t="Include">
+            <e p="globals" t="Include">
+              <e p="core-js" t="Include">
+                <e p="index.d.ts" t="Include" />
+                <e p="typings.json" t="Include" />
+              </e>
+            </e>
+            <e p="index.d.ts" t="Include" />
+          </e>
+          <e p="web.config" t="Include" />
+          <e p="webpack.config.js" t="Include" />
+          <e p="webpack.config.vendor.js" t="Include" />
+          <e p="wwwroot" t="Include">
+            <e p="dist" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="C:\Users\admin\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\admin\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_inventory.-958882811.00" t="ExcludeRecursive" />
+  </component>
+</project>

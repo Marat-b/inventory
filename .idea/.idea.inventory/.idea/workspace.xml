@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f86da2fa-f3cc-436f-8b98-62e81e32cd92" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inventory/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+              <folding>
+                <marker date="1560162359759" expanded="false" signature="6:621" ph="..." />
+                <marker date="1560162359759" expanded="true" signature="642:4145" ph="{...}" />
+                <marker date="1560162359759" expanded="true" signature="669:4143" ph="{...}" />
+                <marker date="1560162359759" expanded="true" signature="723:1110" ph="{...}" />
+                <marker date="1560162359759" expanded="true" signature="1337:2093" ph="{...}" />
+                <marker date="1560162359759" expanded="true" signature="1818:1899" ph="{...}" />
+                <marker date="1560162359759" expanded="true" signature="2316:4137" ph="{...}" />
+                <marker date="1560162359759" expanded="true" signature="2339:2456" ph="/* loggerFactory.AddConsole(Configuration.GetSection(&quot;Logging&quot;)); ... */" />
+                <marker date="1560162359759" expanded="true" signature="2576:2689" ph="/* app.UseSpaStaticFiles(new StaticFileOptions() ... */" />
+                <marker date="1560162359759" expanded="true" signature="2702:3353" ph="/* app.UseStaticFiles(new StaticFileOptions() ... */" />
+                <marker date="1560162359759" expanded="true" signature="3395:3556" ph="{...}" />
+                <marker date="1560162359759" expanded="true" signature="3596:4125" ph="{...}" />
+                <marker date="1560162359759" expanded="true" signature="3756:4103" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/inventory/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inventory/Properties/launchSettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inventory/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/RangeAddressController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1875">
+              <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
+              <folding>
+                <marker date="1559656174286" expanded="false" signature="6:285" ph="..." />
+                <marker date="1559656174286" expanded="true" signature="318:6198" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="405:6196" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="529:587" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="756:828" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="1065:2402" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="1187:1290" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="1705:1964" ph="/* var config=new MapperConfiguration(cfg=&gt;cfg.CreateMap&lt;TRangeIpAddress,RangeIpAddressModel&gt;()); ... */" />
+                <marker date="1559656174286" expanded="true" signature="1975:2104" ph="/* Debug.WriteLine(&quot;m count=&quot;+m.Count().ToString()); ... */" />
+                <marker date="1559656174286" expanded="true" signature="2117:2265" ph="/* foreach (var i in m) ... */" />
+                <marker date="1559656174286" expanded="true" signature="2493:2875" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="2539:2821" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="2654:2739" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="3007:3969" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="3053:3915" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="3102:3211" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="3524:3674" ph="/* var config=new MapperConfiguration(cfg=&gt;cfg.CreateMap&lt;RangeIpAddressModel,TRangeIpAddress&gt;()); ... */" />
+                <marker date="1559656174286" expanded="true" signature="4086:5690" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="4132:5636" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="4601:4657" ph="/* { ... */" />
+                <marker date="1559656174286" expanded="true" signature="5108:5250" ph="/* config=new MapperConfiguration(cfg=&gt;cfg.CreateMap&lt;TRangeIpAddress,RangeIpAddressModel&gt;()); ... */" />
+                <marker date="1559656174286" expanded="true" signature="5787:6190" ph="{...}" />
+                <marker date="1559656174286" expanded="true" signature="5821:6146" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inventory/appsettings.production.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/ListAddressController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+              <folding>
+                <marker date="1560068701334" expanded="true" signature="6:281" ph="..." />
+                <marker date="1560068701334" expanded="true" signature="314:2230" ph="{...}" />
+                <marker date="1560068701334" expanded="true" signature="400:2228" ph="{...}" />
+                <marker date="1560068701334" expanded="true" signature="532:590" ph="{...}" />
+                <marker date="1560068701334" expanded="true" signature="760:2222" ph="{...}" />
+                <marker date="1560068701334" expanded="true" signature="923:1060" ph="{...}" />
+                <marker date="1560068701334" expanded="true" signature="1471:1655" ph="{...}" />
+                <marker date="1560068701334" expanded="true" signature="1696:1875" ph="{...}" />
+                <marker date="1560068701334" expanded="true" signature="1892:2122" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inventory/Classes/IPHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <folding>
+                <marker date="1560069108054" expanded="false" signature="6:117" ph="..." />
+                <marker date="1560069108054" expanded="true" signature="146:1538" ph="{...}" />
+                <marker date="1560069108054" expanded="true" signature="175:1535" ph="{...}" />
+                <marker date="1560069108054" expanded="true" signature="272:1529" ph="{...}" />
+                <marker date="1560069108054" expanded="true" signature="311:1312" ph="{...}" />
+                <marker date="1560069108054" expanded="true" signature="996:1252" ph="{...}" />
+                <marker date="1560069108054" expanded="true" signature="1343:1489" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/inventory/Controllers/ComputerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Db/TMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Db/inventoryContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Db/TComputer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Classes/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Models/ComputerModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Classes/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Interfaces/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Classes/CComputer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Classes/RangeAddressRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Classes/CMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Models/IpAddressModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Interfaces/IIpAddress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Models/AutoMapperProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Classes/IPHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Controllers/RangeAddressController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Db/TListIpAddress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Interfaces/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Classes/ListAddressRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Db/TRangeIpAddress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Controllers/ListAddressController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Interfaces/IMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Interfaces/IComputer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Controllers/ServiceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Controllers/PrinterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/inventory/Controllers/MonitorController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/inventory/Controllers/ComputerController.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Interfaces/IMonitor.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Controllers/MonitorController.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Interfaces/IComputer.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Controllers/ServiceController.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Controllers/PrinterController.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/package.json" />
+        <option value="$PROJECT_DIR$/src/inventory/appsettings.json" />
+        <option value="$PROJECT_DIR$/src/inventory/Interfaces/IRepository.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Classes/Repository.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Classes/RangeAddressRepository.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Db/TRangeIpAddress.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Classes/UnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Db/inventoryContext.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Classes/ListAddressRepository.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Interfaces/IIpAddress.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Interfaces/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Models/AutoMapperProfile.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Controllers/RangeAddressController.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Classes/IPEnumeration.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Db/TListIpAddress.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Models/IpAddressModel.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Controllers/ListAddressController.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Classes/IPHelper.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/src/inventory/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/inventory/web.config" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="inventory" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="inventory" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="inventory" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="inventory" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="dotNetConsole" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Publish to IIS.inventory IIS">
+    <configuration name="inventory IIS" type="DotNetMsBuildPublish" factoryName="Publish to IIS" activateToolWindowBeforeRun="false">
+      <riderPublish publish_profile="&lt;no publish profile&gt;" uuid_high="158534749316989143" uuid_low="-6901303492719512232" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inventory" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/inventory/inventory.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="inventory" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.inventory" />
+      <item itemvalue="Publish to IIS.inventory IIS" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f86da2fa-f3cc-436f-8b98-62e81e32cd92" name="Default Changelist" comment="" />
+      <created>1558165923001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558165923001</updated>
+      <workItem from="1558165927798" duration="13406000" />
+      <workItem from="1558264104111" duration="24081000" />
+      <workItem from="1559476521058" duration="47393000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="84880000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.91791046" weight="0.34236187" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.51759064" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Build" order="16" sideWeight="0.4824094" visible="true" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/inventory/angular-cli.json" />
+    <entry file="file://$PROJECT_DIR$/src/inventory/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/src/inventory/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/src/inventory/Interfaces/IMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <marker date="1558178857656" expanded="false" signature="6:120" ph="..." />
+            <marker date="1558178857656" expanded="true" signature="152:244" ph="{...}" />
+            <marker date="1558178857656" expanded="true" signature="185:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Classes/CMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1537365429528" expanded="false" signature="6:168" ph="..." />
+            <marker date="1537365429528" expanded="true" signature="197:781" ph="{...}" />
+            <marker date="1537365429528" expanded="true" signature="234:779" ph="{...}" />
+            <marker date="1537365429528" expanded="true" signature="334:376" ph="{...}" />
+            <marker date="1537365429528" expanded="true" signature="428:773" ph="{...}" />
+            <marker date="1537365429528" expanded="true" signature="514:760" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/package.json" />
+    <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/ServiceController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <marker date="1558179743163" expanded="false" signature="6:258" ph="..." />
+            <marker date="1558179743163" expanded="true" signature="291:732" ph="{...}" />
+            <marker date="1558179743163" expanded="true" signature="397:730" ph="{...}" />
+            <marker date="1558179743163" expanded="true" signature="512:579" ph="{...}" />
+            <marker date="1558179743163" expanded="true" signature="659:724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/MonitorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <marker date="1558178977376" expanded="false" signature="6:251" ph="..." />
+            <marker date="1558178977376" expanded="true" signature="401:1517" ph="{...}" />
+            <marker date="1558178977376" expanded="true" signature="483:1515" ph="{...}" />
+            <marker date="1558178977376" expanded="true" signature="586:636" ph="{...}" />
+            <marker date="1558178977376" expanded="true" signature="710:1349" ph="{...}" />
+            <marker date="1558178977376" expanded="true" signature="822:1339" ph="/* var items= _db.Monitor.Select(s =&gt; new MonitorModel() ... */" />
+            <marker date="1558178977376" expanded="true" signature="1359:1508" ph="/* GET api/values/5 ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/PrinterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <marker date="1558179766867" expanded="false" signature="6:258" ph="..." />
+            <marker date="1558179766867" expanded="true" signature="291:732" ph="{...}" />
+            <marker date="1558179766867" expanded="true" signature="397:730" ph="{...}" />
+            <marker date="1558179766867" expanded="true" signature="512:579" ph="{...}" />
+            <marker date="1558179766867" expanded="true" signature="659:724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/ProductController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <marker date="1558179754803" expanded="false" signature="6:258" ph="..." />
+            <marker date="1558179754803" expanded="true" signature="291:719" ph="{...}" />
+            <marker date="1558179754803" expanded="true" signature="397:717" ph="{...}" />
+            <marker date="1558179754803" expanded="true" signature="512:566" ph="{...}" />
+            <marker date="1558179754803" expanded="true" signature="646:711" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Models/ComputerModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <marker date="1537191522307" expanded="false" signature="6:96" ph="..." />
+            <marker date="1537191522307" expanded="true" signature="124:1410" ph="{...}" />
+            <marker date="1537191522307" expanded="true" signature="157:1408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Interfaces/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1559203757618" expanded="true" signature="6:78" ph="..." />
+            <marker date="1559203757618" expanded="true" signature="110:724" ph="{...}" />
+            <marker date="1559203757618" expanded="true" signature="174:722" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Db/TMonitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <marker date="1537298392635" expanded="false" signature="6:144" ph="..." />
+            <marker date="1537298392635" expanded="true" signature="168:646" ph="{...}" />
+            <marker date="1537298392635" expanded="true" signature="229:644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/ComputerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <marker date="1558178486656" expanded="false" signature="6:225" ph="..." />
+            <marker date="1558178486656" expanded="true" signature="375:1069" ph="{...}" />
+            <marker date="1558178486656" expanded="true" signature="458:1067" ph="{...}" />
+            <marker date="1558178486656" expanded="true" signature="615:717" ph="{...}" />
+            <marker date="1558178486656" expanded="true" signature="811:889" ph="{...}" />
+            <marker date="1558178486656" expanded="true" signature="970:1049" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1485358513389" expanded="false" signature="6:185" ph="..." />
+            <marker date="1485358513389" expanded="true" signature="206:580" ph="{...}" />
+            <marker date="1485358513389" expanded="true" signature="233:578" ph="{...}" />
+            <marker date="1485358513389" expanded="true" signature="286:572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Db/TComputer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <marker date="1537298392634" expanded="false" signature="6:144" ph="..." />
+            <marker date="1537298392634" expanded="true" signature="168:2539" ph="{...}" />
+            <marker date="1537298392634" expanded="true" signature="231:2537" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Interfaces/IComputer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <marker date="1558179519293" expanded="false" signature="6:120" ph="..." />
+            <marker date="1558179519293" expanded="true" signature="152:501" ph="{...}" />
+            <marker date="1558179519293" expanded="true" signature="185:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Classes/CComputer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <marker date="1538661183539" expanded="false" signature="6:220" ph="..." />
+            <marker date="1538661183539" expanded="true" signature="249:6286" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="288:6276" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="388:430" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="488:895" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="576:883" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="967:2249" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="1055:2202" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="2319:3795" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="2573:3752" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="2723:3738" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="2803:3720" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="3085:3198" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="3259:3697" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="3378:3669" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="3864:5006" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="4117:4962" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="4267:4948" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="4347:4930" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="4532:4908" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="4651:4880" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="5075:6269" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="5328:6225" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="5478:6211" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="5558:6193" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="5739:6171" ph="{...}" />
+            <marker date="1538661183539" expanded="true" signature="5858:6143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Db/inventoryContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <marker date="1559583400536" expanded="false" signature="6:96" ph="..." />
+            <marker date="1559583400536" expanded="true" signature="120:1634" ph="{...}" />
+            <marker date="1559583400536" expanded="true" signature="176:1632" ph="{...}" />
+            <marker date="1559583400536" expanded="true" signature="216:236" ph="{...}" />
+            <marker date="1559583400536" expanded="true" signature="341:361" ph="{...}" />
+            <marker date="1559583400536" expanded="true" signature="670:1188" ph="/* protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) ... */" />
+            <marker date="1559583400536" expanded="true" signature="1198:1626" ph="/* protected override void OnModelCreating(ModelBuilder modelBuilder) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Classes/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <marker date="1559204108774" expanded="false" signature="6:162" ph="..." />
+            <marker date="1559204108774" expanded="true" signature="191:1918" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="273:1916" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="425:525" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="574:629" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="698:760" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="813:871" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="943:1008" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="1062:1120" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="1192:1257" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="1294:1352" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="1446:1513" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="1607:1684" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="1728:1787" ph="{...}" />
+            <marker date="1559204108774" expanded="true" signature="1841:1900" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Classes/RangeAddressRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1559290906838" expanded="true" signature="6:108" ph="..." />
+            <marker date="1559290906838" expanded="true" signature="137:411" ph="{...}" />
+            <marker date="1559290906838" expanded="true" signature="226:409" ph="{...}" />
+            <marker date="1559290906838" expanded="true" signature="305:325" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Classes/ListAddressRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <marker date="1559584181056" expanded="true" signature="6:84" ph="..." />
+            <marker date="1559584181056" expanded="true" signature="113:383" ph="{...}" />
+            <marker date="1559584181056" expanded="true" signature="199:381" ph="{...}" />
+            <marker date="1559584181056" expanded="true" signature="277:297" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Classes/UnitOfWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1559583334626" expanded="false" signature="6:47" ph="..." />
+            <marker date="1559583334626" expanded="true" signature="76:1108" ph="{...}" />
+            <marker date="1559583334626" expanded="true" signature="120:1106" ph="{...}" />
+            <marker date="1559583334626" expanded="true" signature="340:392" ph="{...}" />
+            <marker date="1559583334626" expanded="true" signature="441:687" ph="{...}" />
+            <marker date="1559583334626" expanded="true" signature="467:677" ph="{...}" />
+            <marker date="1559583334626" expanded="true" signature="751:993" ph="{...}" />
+            <marker date="1559583334626" expanded="true" signature="777:983" ph="{...}" />
+            <marker date="1559583334626" expanded="true" signature="1035:1098" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Interfaces/IUnitOfWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <marker date="1559584374124" expanded="true" signature="30:222" ph="{...}" />
+            <marker date="1559584374124" expanded="true" signature="65:220" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Interfaces/IIpAddress.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding>
+            <marker date="1559583710322" expanded="true" signature="6:96" ph="..." />
+            <marker date="1559583710322" expanded="true" signature="128:311" ph="{...}" />
+            <marker date="1559583710322" expanded="true" signature="197:218" ph="{...}" />
+            <marker date="1559583710322" expanded="true" signature="288:309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Db/TRangeIpAddress.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="46" selection-start-line="9" selection-start-column="7" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <marker date="1559474326870" expanded="false" signature="6:96" ph="..." />
+            <marker date="1559474326870" expanded="true" signature="120:361" ph="{...}" />
+            <marker date="1559474326870" expanded="true" signature="195:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Db/TListIpAddress.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <marker date="1559841063727" expanded="false" signature="6:110" ph="..." />
+            <marker date="1559841063727" expanded="true" signature="134:465" ph="{...}" />
+            <marker date="1559841063727" expanded="true" signature="207:463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Models/IpAddressModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <marker date="1559841110784" expanded="false" signature="6:41" ph="..." />
+            <marker date="1559841110784" expanded="true" signature="69:542" ph="{...}" />
+            <marker date="1559841110784" expanded="true" signature="108:257" ph="{...}" />
+            <marker date="1559841110784" expanded="true" signature="298:540" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Models/AutoMapperProfile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+          <folding>
+            <marker date="1559655462826" expanded="false" signature="6:37" ph="..." />
+            <marker date="1559655462826" expanded="true" signature="65:332" ph="{...}" />
+            <marker date="1559655462826" expanded="true" signature="112:330" ph="{...}" />
+            <marker date="1559655462826" expanded="true" signature="153:324" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Classes/IPHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <marker date="1560069108054" expanded="false" signature="6:117" ph="..." />
+            <marker date="1560069108054" expanded="true" signature="146:1538" ph="{...}" />
+            <marker date="1560069108054" expanded="true" signature="175:1535" ph="{...}" />
+            <marker date="1560069108054" expanded="true" signature="272:1529" ph="{...}" />
+            <marker date="1560069108054" expanded="true" signature="311:1312" ph="{...}" />
+            <marker date="1560069108054" expanded="true" signature="996:1252" ph="{...}" />
+            <marker date="1560069108054" expanded="true" signature="1343:1489" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/libman.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/app.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/appsettings.production.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding>
+            <marker date="1560162359759" expanded="false" signature="6:621" ph="..." />
+            <marker date="1560162359759" expanded="true" signature="642:4145" ph="{...}" />
+            <marker date="1560162359759" expanded="true" signature="669:4143" ph="{...}" />
+            <marker date="1560162359759" expanded="true" signature="723:1110" ph="{...}" />
+            <marker date="1560162359759" expanded="true" signature="1337:2093" ph="{...}" />
+            <marker date="1560162359759" expanded="true" signature="1818:1899" ph="{...}" />
+            <marker date="1560162359759" expanded="true" signature="2316:4137" ph="{...}" />
+            <marker date="1560162359759" expanded="true" signature="2339:2456" ph="/* loggerFactory.AddConsole(Configuration.GetSection(&quot;Logging&quot;)); ... */" />
+            <marker date="1560162359759" expanded="true" signature="2576:2689" ph="/* app.UseSpaStaticFiles(new StaticFileOptions() ... */" />
+            <marker date="1560162359759" expanded="true" signature="2702:3353" ph="/* app.UseStaticFiles(new StaticFileOptions() ... */" />
+            <marker date="1560162359759" expanded="true" signature="3395:3556" ph="{...}" />
+            <marker date="1560162359759" expanded="true" signature="3596:4125" ph="{...}" />
+            <marker date="1560162359759" expanded="true" signature="3756:4103" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/ListAddressController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <marker date="1560068701334" expanded="true" signature="6:281" ph="..." />
+            <marker date="1560068701334" expanded="true" signature="314:2230" ph="{...}" />
+            <marker date="1560068701334" expanded="true" signature="400:2228" ph="{...}" />
+            <marker date="1560068701334" expanded="true" signature="532:590" ph="{...}" />
+            <marker date="1560068701334" expanded="true" signature="760:2222" ph="{...}" />
+            <marker date="1560068701334" expanded="true" signature="923:1060" ph="{...}" />
+            <marker date="1560068701334" expanded="true" signature="1471:1655" ph="{...}" />
+            <marker date="1560068701334" expanded="true" signature="1696:1875" ph="{...}" />
+            <marker date="1560068701334" expanded="true" signature="1892:2122" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/Controllers/RangeAddressController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
+          <folding>
+            <marker date="1559656174286" expanded="false" signature="6:285" ph="..." />
+            <marker date="1559656174286" expanded="true" signature="318:6198" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="405:6196" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="529:587" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="756:828" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="1065:2402" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="1187:1290" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="1705:1964" ph="/* var config=new MapperConfiguration(cfg=&gt;cfg.CreateMap&lt;TRangeIpAddress,RangeIpAddressModel&gt;()); ... */" />
+            <marker date="1559656174286" expanded="true" signature="1975:2104" ph="/* Debug.WriteLine(&quot;m count=&quot;+m.Count().ToString()); ... */" />
+            <marker date="1559656174286" expanded="true" signature="2117:2265" ph="/* foreach (var i in m) ... */" />
+            <marker date="1559656174286" expanded="true" signature="2493:2875" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="2539:2821" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="2654:2739" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="3007:3969" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="3053:3915" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="3102:3211" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="3524:3674" ph="/* var config=new MapperConfiguration(cfg=&gt;cfg.CreateMap&lt;RangeIpAddressModel,TRangeIpAddress&gt;()); ... */" />
+            <marker date="1559656174286" expanded="true" signature="4086:5690" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="4132:5636" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="4601:4657" ph="/* { ... */" />
+            <marker date="1559656174286" expanded="true" signature="5108:5250" ph="/* config=new MapperConfiguration(cfg=&gt;cfg.CreateMap&lt;TRangeIpAddress,RangeIpAddressModel&gt;()); ... */" />
+            <marker date="1559656174286" expanded="true" signature="5787:6190" ph="{...}" />
+            <marker date="1559656174286" expanded="true" signature="5821:6146" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inventory/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
